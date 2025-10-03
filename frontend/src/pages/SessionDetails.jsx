@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchSessionById, deleteSession } from '../redux/slices/sessionSlice';
-import './Common.css';
+import '../styles.css';
 
 function SessionDetail() {
   const { sessionId } = useParams();

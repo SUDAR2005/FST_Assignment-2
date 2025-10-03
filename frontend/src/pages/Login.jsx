@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { createUserProfile, fetchUserByEmail } from '../redux/slices/userSlice';
-import './Common.css';
+import '../styles.css';
 
 function Login() {
   const navigate = useNavigate();

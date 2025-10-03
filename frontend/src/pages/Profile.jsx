@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { updateUserProfile, deleteUserProfile } from '../redux/slices/userSlice';
-import './Common.css';
+import '../styles.css';
 
 function Profile() {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchSessions, deleteSession } from '../redux/slices/sessionSlice';
-import './Common.css';
+import '../styles.css';
 
 function SessionHistory() {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchSessionById, addQuestionToSession, updateSessionScore } from '../redux/slices/sessionSlice';
 import { generateQuestion } from '../redux/slices/questionSlice';
-import './Common.css';
+import '../styles.css';
 
 function InterviewSession() {
   const { sessionId } = useParams();

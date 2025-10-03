@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchSessions } from '../redux/slices/sessionSlice';
-import './Common.css';
+import '../styles.css';
 
 function Dashboard() {
   const navigate = useNavigate();

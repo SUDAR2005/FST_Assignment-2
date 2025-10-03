@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { createSession } from '../redux/slices/sessionSlice';
-import './Common.css';
+import '../styles.css';
 
 function NewSession() {
   const navigate = useNavigate();
